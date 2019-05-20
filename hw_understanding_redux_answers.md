@@ -47,7 +47,7 @@ const reducer2 = (action, state) => {
   state.push("Cat");
   return state;
 }
-// IMPURE
+// NON-PURE
 
 const reducer3 = (action, state) => {
   return [...state, "Dog"];
